@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.22",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "FPSGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Substance",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4"
+		},
+		{
+			"Name": "RunebergVRPlugin",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4dfd0c5b4c97427c860bd2cf7c207136"
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
+		}
+	]
+}
