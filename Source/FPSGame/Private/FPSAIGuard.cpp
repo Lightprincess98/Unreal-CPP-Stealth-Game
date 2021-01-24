@@ -7,7 +7,8 @@
 #include "TimerManager.h"
 #include "FPSGameMode.h"
 #include "Engine/World.h"
-#include "Classes/AIController.h"
+//#include "AIController.h"
+#include "AIModule/Classes/AIController.h"
 #include "Net/UnrealNetwork.h"
 
 // Sets default values
@@ -55,7 +56,6 @@ void AFPSAIGuard::OnPawnSeen(APawn * SeenPawn)
 	
 	SetGuardState(EAIState::Alerted);
 
-	AController* Controller = GetController();
 	if (Controller)
 	{
 		Controller->StopMovement();
